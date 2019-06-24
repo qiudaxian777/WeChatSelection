@@ -3,7 +3,6 @@ package cn.edu.gdpt.wechatselection.activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.ActivityInfo;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -13,7 +12,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import cn.edu.gdpt.wechatselection.FindPwdActivity;
 import cn.edu.gdpt.wechatselection.R;
 import cn.edu.gdpt.wechatselection.utils.MD5Utils;
 

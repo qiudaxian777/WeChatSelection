@@ -1,7 +1,7 @@
 package cn.edu.gdpt.wechatselection.activity;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 
 import cn.edu.gdpt.wechatselection.R;
 
