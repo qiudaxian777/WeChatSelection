@@ -71,13 +71,15 @@
             android:background="@android:color/white"
             android:gravity="bottom"
             android:orientation="horizontal">
+
             <RadioButton
-               android:id="@+id/rb_chat"
+                android:id="@+id/rb_chat"
                 style="@style/rb_style"
+                android:layout_width="wrap_content"
+                android:checked="true"
                 android:drawableTop="@drawable/rb_chat_selector"
                 android:text="聊天"
-                android:textColor="@drawable/rb_text_selector"
-                android:checked="true"/>
+                android:textColor="@drawable/rb_text_selector" />
             <RadioButton
                 android:id="@+id/rb_address"
                 style="@style/rb_style"

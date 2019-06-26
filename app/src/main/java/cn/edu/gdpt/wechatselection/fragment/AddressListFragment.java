@@ -37,7 +37,7 @@ public class AddressListFragment extends Fragment {
         // Inflate the layout for this fragment
        View view=inflater.inflate(R.layout.fragment_address_list, container, false);
        contactNames=new String[]{"明明","詠丽","王二小","刘能","张三丰","李世民","赵家屯","孙悟空","秦始皇","魏忠贤","饿肚子","热热热","腾讯","杨过","裴东来","阿玛尼","三哥","大哥大","方世玉",
-               "高大威猛","核平","姐姐","坤坤，鸡你太美","绿谷","战国无双","村长","！256d","sbs","#$%","*&fff"};
+               "高大威猛","核平","姐姐","坤坤，鸡你太美","绿谷","战国无双","村长","爸爸","！256d","sbs","#$%","*&fff"};
        contactList=(RecyclerView)view.findViewById(R.id.content_list);
        letterView=(LetterView) view.findViewById(R.id.letter_view);
        layoutManager=new LinearLayoutManager(getContext());

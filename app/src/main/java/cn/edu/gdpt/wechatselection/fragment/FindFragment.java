@@ -62,9 +62,34 @@ public class FindFragment extends Fragment {
         findlist.add(c1);
 
         Map<String,Object> c2=new HashMap<String, Object>();
-        c2.put("logo",R.drawable.kanyikan);
-        c2.put("title","看一看");
+        c2.put("logo",R.drawable.saomiao);
+        c2.put("title","扫描");
         findlist.add(c2);
+
+        Map<String,Object> c3=new HashMap<String, Object>();
+        c3.put("logo",R.drawable.yaoyiyao);
+        c3.put("title","摇一摇");
+        findlist.add(c3);
+
+        Map<String,Object> c4=new HashMap<String, Object>();
+        c4.put("logo",R.drawable.kanyikan);
+        c4.put("title","看一看");
+        findlist.add(c4);
+
+        Map<String,Object> c5=new HashMap<String, Object>();
+        c5.put("logo",R.drawable.souyisou);
+        c5.put("title","搜一搜");
+        findlist.add(c5);
+
+        Map<String,Object> c6=new HashMap<String, Object>();
+        c6.put("logo",R.drawable.youxi);
+        c6.put("title","游戏");
+        findlist.add(c6);
+
+        Map<String,Object> c7=new HashMap<String, Object>();
+        c7.put("logo",R.drawable.xiaochengxu);
+        c7.put("title","小程序");
+        findlist.add(c7);
     }
 
 }
