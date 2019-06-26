@@ -6,9 +6,11 @@
     tools:context=".fragment.FindFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ListView
+        android:id="@+id/lv_find_body"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:dividerHeight="1dp"
+        android:divider="#f2f1ef"/>
 
 </FrameLayout>
