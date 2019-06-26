@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".chat.ChatContextActivity"></activity>
+        <activity android:name=".find.SelectionActivity"></activity>
+        <activity android:name=".chat.ChatContextActivity" />
         <activity android:name=".activity.SearchActivity" />
         <activity android:name=".activity.FindPwdActivity" />
         <activity android:name=".activity.SplashActivity">

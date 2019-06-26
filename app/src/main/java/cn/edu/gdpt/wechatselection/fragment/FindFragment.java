@@ -18,6 +18,7 @@ import java.util.Map;
 
 import cn.edu.gdpt.wechatselection.R;
 import cn.edu.gdpt.wechatselection.chat.ChatContextActivity;
+import cn.edu.gdpt.wechatselection.find.SelectionActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -47,7 +48,7 @@ public class FindFragment extends Fragment {
         findlv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent=new Intent(getActivity(), ChatContextActivity.class);
+                Intent intent=new Intent(getActivity(), SelectionActivity.class);
                 startActivity(intent);
             }
         });
