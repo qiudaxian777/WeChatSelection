@@ -207,7 +207,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         rb_find = (RadioButton) findViewById(R.id.rb_find);
         rb_me = (RadioButton) findViewById(R.id.rb_me);
         rg_btn = (RadioGroup) findViewById(R.id.rg_btn);
-        tv_title=(TextView) findViewById(R.id.tv_main_title);
+        tv_title=(TextView) findViewById(R.id.tv_main_ntitle);
 
         ib_add.setOnClickListener(this);
         ib_search.setOnClickListener(this);

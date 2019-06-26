@@ -56,7 +56,8 @@
             android:id="@+id/vp_body"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1">
+            android:layout_weight="1"
+            android:background="@android:color/white">
         </android.support.v4.view.ViewPager>
         <View
             android:layout_width="match_parent"
@@ -82,22 +83,19 @@
                 style="@style/rb_style"
                 android:drawableTop="@drawable/rb_address_selector"
                 android:text="通讯录"
-                android:textColor="@drawable/rb_text_selector"
-                android:checked="true"/>
+                android:textColor="@drawable/rb_text_selector" />
             <RadioButton
                 android:id="@+id/rb_find"
                 style="@style/rb_style"
                 android:drawableTop="@drawable/rb_find_selector"
                 android:text="发现"
-                android:textColor="@drawable/rb_text_selector"
-                android:checked="true"/>
+                android:textColor="@drawable/rb_text_selector" />
             <RadioButton
                 android:id="@+id/rb_me"
                 style="@style/rb_style"
                 android:drawableTop="@drawable/rb_me_selector"
                 android:text="我"
-                android:textColor="@drawable/rb_text_selector"
-                android:checked="true"/>
+                android:textColor="@drawable/rb_text_selector" />
 
         </RadioGroup>
     </LinearLayout>
