@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         menuList.add(new Item(R.drawable.iv_menu_alert,"提醒通知"));
         menuList.add(new Item(R.drawable.iv_menu_trace,"搜一搜"));
         menuList.add(new Item(R.drawable.iv_menu_settings,"相关设置"));
-        menuList.add(new Item(R.drawable.back,"返回"));
+        menuList.add(new Item(R.drawable.back,"退出"));
         myAdapter=new Myadapter();
         listView_draw.setAdapter(myAdapter);
         listView_draw.setOnItemClickListener(new AdapterView.OnItemClickListener() {

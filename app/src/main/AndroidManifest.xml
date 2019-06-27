@@ -2,14 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.edu.gdpt.wechatselection">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/app_icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".find.SelectionActivity"></activity>
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activity.WebActivity"></activity>
+        <activity android:name=".find.SelectionActivity" />
         <activity android:name=".chat.ChatContextActivity" />
         <activity android:name=".activity.SearchActivity" />
         <activity android:name=".activity.FindPwdActivity" />
