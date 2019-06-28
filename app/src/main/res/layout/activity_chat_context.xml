@@ -54,7 +54,8 @@
             android:layout_gravity="center"
             android:background="@drawable/edt_background"
             android:layout_margin="5dp"
-            android:id="@+id/edt_context_input"/>
+            android:id="@+id/edt_context_input"
+            android:textColor="@color/black"/>
         <Button
             android:layout_width="70dp"
             android:layout_height="wrap_content"
